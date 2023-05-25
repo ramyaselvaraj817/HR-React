@@ -1,0 +1,53 @@
+.left-panel-buttons {
+  display: "flex";
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-panel.expanded {
+  width: 250px;
+  flex: 1;
+}
+
+.side-panel {
+  background: #2a314b;
+  height: 100%;
+  transition: width 0.9s ease;
+  width: 70px;
+  flex: 0.5;
+}
+.custom-switch {
+  transform: scale(0.5); /* Adjust this as needed */
+  transition: background-color 0.3s;
+}
+.show-switch {
+  display: block;
+}
+.hide-switch {
+  display: none;
+}
+
+.logo-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8px;
+  padding: 8px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.logoimg {
+  padding: 0 18px 0 0;
+}
+.logo-font {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.startIcon {
+  padding-right: 30px;
+}

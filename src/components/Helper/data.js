@@ -1,0 +1,106 @@
+export const data = {
+  candidates: [
+    {
+      name: "Leah Kline",
+      address: "123 Main St, City",
+      jobOpening: "Software Engineer",
+      status: "New",
+      rating: 4,
+    },
+    {
+      name: "Jane Smith",
+      address: "456 Park Ave, City",
+      jobOpening: "Product Manager",
+      status: "Old",
+      rating: 5,
+    },
+    {
+      name: "Ibrahim Villegas",
+      address: "123 Main St, City",
+      jobOpening: "Testing Engineer",
+      status: "New",
+      rating: 4,
+    },
+    {
+      name: "Rueben Hahn",
+      address: "456 Park Ave, City",
+      jobOpening: "IT Analysis Manager",
+      status: "Old",
+      rating: 5,
+    },
+    {
+      name: "Erika Hardy",
+      address: "123 Main St, City",
+      jobOpening: "Senior Software Engineer",
+      status: "New",
+      rating: 4,
+    },
+    {
+      name: "Nettie Eaton",
+      address: "456 Park Ave, City",
+      jobOpening: "Product Manager",
+      status: "Old",
+      rating: 5,
+    },
+  ],
+
+  statuses: ["Status 1", "Status 2", "Status 3"],
+  jobOpenings: ["Job Opening 1", "Job Opening 2", "Job Opening 3"],
+  buttons: [
+    {
+      label: "Dashboard",
+      path: "/dashboard",
+      startIcon: "dashboard",
+      endIcon: "",
+    },
+    {
+      label: "Employee List",
+      path: "/employees",
+      startIcon: "people",
+      endIcon: "",
+    },
+    {
+      label: "Consultant List",
+      path: "/consultant",
+      startIcon: "people",
+      endIcon: "",
+    },
+    {
+      label: "Time Sheet",
+      path: "/timesheet",
+      startIcon: "fact_check",
+      endIcon: "chevron_right",
+    },
+    {
+      label: "Documents",
+      path: "/documents",
+      startIcon: "description",
+      endIcon: "chevron_right",
+    },
+    {
+      label: "Setup Forms",
+      path: "/forms",
+      startIcon: "settings",
+      endIcon: "chevron_right",
+    },
+    {
+      label: "Hiring & Onboarding",
+      path: "/hiring",
+      startIcon: "dashboard",
+      endIcon: "chevron_right",
+    },
+    {
+      label: "Payroll",
+      path: "/payroll",
+      startIcon: "dashboard",
+      endIcon: "chevron_right",
+    },
+  ],
+  candidatehours: [
+    { name: "Leah Kline", hoursWorked: 35 },
+    { name: "Jane Smith", hoursWorked: 30 },
+    { name: "Ibrahim Villegas", hoursWorked: 28 },
+    { name: "Rueben Hahn", hoursWorked: 33 },
+    { name: "Erika Hardy", hoursWorked: 36 },
+  ],
+};

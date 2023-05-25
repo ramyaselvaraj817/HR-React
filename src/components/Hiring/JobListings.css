@@ -1,0 +1,60 @@
+.job-listings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.job-details {
+  background-color: white;
+  padding: 10px;
+}
+.job-listing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.description {
+  text-align: left;
+}
+
+.sub-heading {
+  font-size: 15px;
+  font-weight: 500;
+  display: inline;
+  color: rgb(25, 118, 210);
+}
+
+.job-details-container {
+  display: flex;
+  justify-content: center;
+}
+
+.job-details-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.job-details-table th,
+.job-details-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.job-details-table th {
+  text-align: left;
+  color: rgb(25, 118, 210);
+}
+.back-btn {
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}

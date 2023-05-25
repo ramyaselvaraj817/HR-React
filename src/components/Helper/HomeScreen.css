@@ -1,0 +1,19 @@
+.right-section-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.endIcon {
+}
+
+.sticky-header {
+  height: 64px;
+  width: 100%;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  color: rgb(25, 118, 210);
+}

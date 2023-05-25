@@ -1,0 +1,8 @@
+.no-content {
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}

@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-container {
+  flex: 1;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  flex: 20;
+  background-color: #eeeeee;
+}
+
+header {
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #222a45;
+  color: white;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+}
